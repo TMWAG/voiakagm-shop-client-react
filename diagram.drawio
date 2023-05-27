@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="vg1rt8mkGFnTeTB0TLAk" name="Component Tree">
+        <mxGraphModel dx="1970" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-16" y="60" width="860" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="гарантии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="акции" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="доставка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="корзина" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="профиль" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="лого" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import styled  from 'styled-components';
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Pages/Home/Home';
+import Home from './components/Home/Home';
 import { Route, Routes } from 'react-router-dom';
-import Catalogue from './components/Pages/Catalogue/Catalogue';
-import Sales from './components/Pages/Sales/Sales';
-import Favorites from './components/Pages/Favorites/Favorites';
-import User from './components/Pages/User/User';
-import Cart from './components/Pages/Cart/Cart';
-import Recommendations from './components/Pages/Recommendations/Recommendations';
+import Catalogue from './components/Catalogue/Catalogue';
+import Sales from './components/Sales/Sales';
+import Favorites from './components/Favorites/Favorites';
+import User from './components/User/User';
+import Cart from './components/Cart/Cart';
+import Recommendations from './components/Recommendations/Recommendations';
 
 const Wrapper = styled.div`
 
