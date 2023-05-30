@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { setCategories } from '../../features/categories/categoriesSlice';
+import { setCategories } from '../../store/slices/categoriesSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '../../store/store';
 import styled from 'styled-components';
