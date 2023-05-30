@@ -1,9 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const Catalogue = () => {
-  return (
-    <div>Catalogue</div>
-  );
+const Catalogue = (): JSX.Element => {
+  return <div>Catalogue</div>;
 };
 
 export default Catalogue;

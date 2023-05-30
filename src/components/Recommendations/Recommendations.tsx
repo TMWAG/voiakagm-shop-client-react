@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const Recommendations = () => {
-  return (
-    <div>
-      Recommendations
-    </div>
-  );
+const Recommendations = (): JSX.Element => {
+  return <div>Recommendations</div>;
 };
 
 export default Recommendations;
