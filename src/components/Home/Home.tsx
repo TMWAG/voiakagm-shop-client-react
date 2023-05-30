@@ -4,7 +4,7 @@ import { setCategories } from '../../store/slices/categoriesSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '../../store/store';
 import styled from 'styled-components';
-import Promoted from './Promoted/Promoted';
+import Promoted from './Promoted/TopPromoted';
 import { StyledHome } from './StyledHome';
 
 const StyledCategory = styled.div`
