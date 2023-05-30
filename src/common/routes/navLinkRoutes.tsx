@@ -1,5 +1,4 @@
 import React from 'react';
-import { StyledLogo } from '../../components/Navbar/Styled/StyledLogo';
 
 export interface INavLinkRoutes {
   to: string;
@@ -7,10 +6,6 @@ export interface INavLinkRoutes {
 }
 
 export const navLinkRoutes = [
-  {
-    to: '/',
-    content: <StyledLogo src="https://placehold.co/90x90" alt="logo" />,
-  },
   {
     to: '/guarantees',
     content: 'Гарантии',
@@ -22,6 +17,10 @@ export const navLinkRoutes = [
   {
     to: '/delivery_info',
     content: 'Доставка',
+  },
+  {
+    to: '/',
+    content: <img src="https://placehold.co/90x90" alt="logo" />,
   },
   {
     to: '/recommendations',
