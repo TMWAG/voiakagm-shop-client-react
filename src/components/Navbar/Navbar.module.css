@@ -1,0 +1,16 @@
+.navbar {
+  margin: 1vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > a {
+  color: black;
+  margin: 0 0.5vw;
+  text-decoration: none;
+}
+
+.navbar > a.active {
+  color: #6b4fbd;
+}

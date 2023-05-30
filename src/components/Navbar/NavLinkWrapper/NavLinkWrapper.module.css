@@ -1,0 +1,13 @@
+.navLinkWrapper {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navLinkWrapper:hover {
+  color: #4a3783;
+}
+
+.navLinkWrapper > img {
+  border-radius: 15px;
+}

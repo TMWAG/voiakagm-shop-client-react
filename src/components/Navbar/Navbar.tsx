@@ -1,18 +1,18 @@
 import React from 'react';
+import styles from './Navbar.module.css';
 import { NavLink } from 'react-router-dom';
-import { StyledNavbar } from './Styled/StyledNavbar';
-import { StyledNavLinkWrapper } from './Styled/StyledNavLinkWrapper';
 import { navLinkRoutes } from '../../common/routes/navLinkRoutes';
+import NavLinkWrapper from './NavLinkWrapper/NavLinkWrapper';
 
 const Navbar = (): JSX.Element => {
   return (
-    <StyledNavbar>
+    <nav className={styles.navbar}>
       {navLinkRoutes.map((r) => (
         <NavLink to={r.to} key={r.to}>
-          <StyledNavLinkWrapper>{r.content}</StyledNavLinkWrapper>
+          <NavLinkWrapper>{r.content}</NavLinkWrapper>
         </NavLink>
       ))}
-    </StyledNavbar>
+    </nav>
   );
 };
 
