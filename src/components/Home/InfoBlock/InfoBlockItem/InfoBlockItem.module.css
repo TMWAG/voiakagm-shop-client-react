@@ -1,0 +1,25 @@
+.infoBlockItem {
+  border: 1px solid #cdcdcd;
+  border-radius: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoBlockItem svg {
+  color: #8d7cbf;
+  padding: 1vh 1vw;
+}
+
+.infoBlockItem h2 {
+  font-size: 2vh;
+}
+
+.infoBlockItem span {
+  font-size: 1.75vh;
+  display: block;
+  word-wrap: normal;
+  text-align: center;
+  padding: 1vh 1vw;
+}
