@@ -11,20 +11,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  width: 60%;
 }
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
   body {
-    width: 60%;
+    
   }
-}
-
-@media screen and (max-width: 428px) {
-  body {
-    width: 100%;
-  }
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
