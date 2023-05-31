@@ -1,0 +1,7 @@
+.promotedCard {
+  border: 1px solid #cdcdcd;
+  border-radius: 25px;
+  margin: 0 1vw;
+  display: flex;
+  flex-direction: column;
+}

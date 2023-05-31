@@ -1,15 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import styles from './TopPromited.module.css';
+import PromotedCard from './PromotedCard/PromotedCard';
+import PromotedSlider from './PromotedSlider/PromotedSlider';
 
-const StyledTopPromoted = styled.div`
-  width: 100%;
-  background-color: #e03be0;
-  padding: 2vh 0;
-  display: grid;
-`;
-
-const Promoted = (): JSX.Element => {
-  return <StyledTopPromoted>promoted</StyledTopPromoted>;
+const TopPromoted = (): JSX.Element => {
+  return (
+    <div className={styles.topPromoted}>
+      <PromotedSlider />
+      <PromotedCard />
+    </div>
+  );
 };
 
-export default Promoted;
+export default TopPromoted;
