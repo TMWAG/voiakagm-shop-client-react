@@ -8,7 +8,11 @@ const Navbar = (): JSX.Element => {
   return (
     <nav className={styles.navbar}>
       {navLinkRoutes.map((r) => (
-        <NavLink to={r.to} key={r.to}>
+        <NavLink
+          to={r.to}
+          key={r.to}
+          className={({ isActive }) => (isActive ? styles.active : '')}
+        >
           <NavLinkWrapper>{r.content}</NavLinkWrapper>
         </NavLink>
       ))}
