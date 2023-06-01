@@ -14,7 +14,7 @@ const CategoryItem = ({
   return (
     <div className={styles.categoryItem}>
       <span>{name}</span>
-      <NavLink to={`/catalogue?categoryId=${id}`}>Подробнее...</NavLink>
+      <NavLink to={`/catalogue/${id}`}>Подробнее...</NavLink>
       <img
         src={
           picture !== null
