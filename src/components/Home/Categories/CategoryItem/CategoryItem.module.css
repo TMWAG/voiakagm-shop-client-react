@@ -16,17 +16,18 @@
 
 .categoryItem > img {
   max-height: 11vh;
-  padding: 0 2vw;
+  padding: 1vh 2vw;
 }
 
 .categoryItem > span {
   padding: 1vh 0.75vw;
   font-weight: bold;
-  font-size: larger;
+  font-size: 2vh;
   color: #2f3035;
 }
 
 .categoryItem > a {
+  font-size: 1.75vh;
   padding: 1vh 0.75vw;
   text-decoration: none;
   color: #c4c4c4;
