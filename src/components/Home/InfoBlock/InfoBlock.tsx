@@ -16,7 +16,7 @@ const InfoBlock = (): JSX.Element => {
       <InfoBlockItem
         header="Сбалансированный подбор"
         icon={<CpuSVG width="20vh" />}
-        text="Мирон хуйни не посоветует"
+        text="Мирон фигни не посоветует"
       />
       <InfoBlockItem
         header="Множество отзывов"
