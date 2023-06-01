@@ -23,7 +23,7 @@ export const routerRoutes: IRouterRoutes[] = [
     element: <Cart />,
   },
   {
-    path: '/catalogue',
+    path: '/catalogue/:categoryId',
     element: <Catalogue />,
   },
   {
