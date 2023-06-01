@@ -1,26 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Categories.module.css';
-import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '../../../store/store';
-import axios from 'axios';
-import { setCategories } from '../../../store/slices/categoriesSlice';
 import CategoryItem from './CategoryItem/CategoryItem';
+import { useCategories } from '../../../hooks/useCategories';
+import { useSelector } from 'react-redux';
 
 const Categories = (): JSX.Element => {
-  const dispatch = useDispatch();
+  useCategories();
   const categories = useSelector(
     (state: RootState) => state.categories.categories
   );
-  useEffect(() => {
-    axios
-      .get('http://localhost:5000/api/category/all')
-      .then(({ data }) => {
-        dispatch(setCategories(data));
-      })
-      .catch((e) => {
-        console.log(e.message);
-      });
-  }, [categories, dispatch]);
   return (
     <div className={styles.categoriesBlock}>
       {categories.length !== 0 ? (
